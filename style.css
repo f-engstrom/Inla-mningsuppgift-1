@@ -1,0 +1,182 @@
+
+/*=================================================================================*/
+/*header*/
+/*=================================================================================*/
+
+body  a{
+
+    text-decoration: none;
+
+}
+
+.site-header .logo{
+
+    width: 200px;
+    height: 100px;
+    background: repeating-linear-gradient(
+        45deg, purple 0px, chartreuse 40px,purple 40px, chartreuse 80px);
+    display: flex;
+    justify-content: center;
+
+}
+
+.site-header .logo p {
+    color: purple;
+    font-size: 2em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.site-header{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background-color: greenyellow;
+}
+
+.site-header div{
+    display: flex;
+}
+
+.site-header div:nth-child(2)
+{
+    margin: auto 0;
+
+
+}
+
+.site-header div:nth-child(3)
+{
+
+margin: 0 0 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 20em;
+}
+
+.site-header nav {
+
+flex-direction: row;
+align-self: baseline;
+display: flex;
+flex-shrink: 3;
+
+}
+
+
+.header-row ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.header-row a{
+
+    padding: 0.3em;
+}
+
+/*=================================================================================*/
+/*Body*/
+/*=================================================================================*/
+
+
+.hero{
+
+    display:flex;
+    padding: 1em;
+}
+.hero div {
+
+    display: flex;
+    flex-direction: column; 
+    flex: 1 0 0;
+}
+
+.hero img {
+        flex: 2 0 0;
+
+}
+
+.hero button{
+
+    margin: 0 auto;
+}
+
+.featured-items{
+
+    display:flex;
+    justify-content: space-between;
+
+
+}
+
+.featured-items div {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.third-row-images{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    margin-top: 2em;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 6em;
+
+}
+.icons span {
+
+    margin: auto;
+    margin-left: 1em;
+}
+
+/*=================================================================================*/
+
+/*Footer*/
+/*=================================================================================*/
+
+
+footer {
+
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+
+}
+
+footer span{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+footer .language-region{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 0 30em;
+}
+
+footer ul {
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+footer div{
+
+    display: flex;
+    justify-content: space-between;
+
+}
